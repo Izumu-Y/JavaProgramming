@@ -1,0 +1,23 @@
+# 笔记
+## 包
+java.util.Scanner;  用于传入参数
+
+## 函数
+final 静态全局变量
+
+final 类型 字符 = 变量;
+
+Math.pow(1,b);  次方
+
+## 方法
+
+生成一个随机数
+>Random suijishu = new Random();
+>
+>类型 suijishu1 = suijishu.next类型(区间);
+>
+>suijishu1 = Math.abs(suijishu.next类型() % 区间);
+
+double控制小数点位数(2位)
+
+> double vul = （doouble）Math.round(number * 100) / 100)
