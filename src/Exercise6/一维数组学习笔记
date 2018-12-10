@@ -1,0 +1,13 @@
+# 一维数组
+数组（array）
+## 数组的基本知识
+### 数组的声明
+elementType[] arrayRefVar
+### 创建数组
+elementType[] arrayRefVar = new elementType[arraySize]
+>double [] mylist = new double[10];
+### 数组大小和默认值
+数组创建时必须声明大小，之后不可再修改，可以使用arraryRefvar.length()求得长度
+>mylist.length();
+### 数组的简单初始化
+elementType[] arraryRefVar = {value0,value2,value3...value10};

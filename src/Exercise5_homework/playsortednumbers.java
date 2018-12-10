@@ -30,6 +30,6 @@ public class playsortednumbers {
 			num2 = num3;
 			num3 = temp;
 		}
-		System.out.print("排序后的结果是" + num1 + " " + num2 + " " + num3);;
+		System.out.print("排序后的结果是" + num1 + " " + num2 + " " + num3);
 	}
 }
