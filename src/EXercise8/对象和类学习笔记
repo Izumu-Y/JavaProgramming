@@ -1,0 +1,27 @@
+# 对象和类
+## 定义对象和类
+对象（object）
+
+对象的状态---特征or属性
+
+对象的行为---方法
+
+    class Circle
+    
+        double raidus = 1.0;/* 数据域*/
+
+        Circle(){
+        }
+        Circle(double newRadius){
+            radius = Newradius;
+        }/*构造方法*/
+
+        double getArea(){
+            return radisu * radius * math.pi;
+        }/*方法*/
+### 使用构造方法构造对象
+1.构造方法和类名必须相同
+
+2.构造方法没有返回类，连void也没有
+
+3.构造方法是在创建一个对象使用new操作符时调用的。构造方法的作用是初始化对象
