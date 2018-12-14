@@ -25,3 +25,39 @@
 2.构造方法没有返回类，连void也没有
 
 3.构造方法是在创建一个对象使用new操作符时调用的。构造方法的作用是初始化对象
+### 静态变量/常量和方法
+定义一个静态变量使用static
+
+    ex:
+    static int numberOfObject;
+    static int getNumberOfObjcet;
+定义一个常量使用final static
+    
+    ex：
+    final static double PI = 3.1415926535897932846;
+定义一个静态方法
+    
+    ex：
+    类名.方法名()
+### 可见性修饰符
+不被public修饰的类，默认为包私有或者包内访问
+
+除了public还有private修饰符和protected修饰符
+
+private限定方法和数据域只能在自己的类中被访问
+### 数据域封装
+get方法有如下签名
+
+    public returnType getPropertName()
+
+如果返回类型是boolean，习惯上如下定义
+
+    public boolena isPropertName()
+set方法如下签名
+
+    public void setPropertName()
+
+
+
+
+
