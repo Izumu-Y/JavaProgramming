@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/JavaProgramming.iml" filepath="$PROJECT_DIR$/JavaProgramming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../account/account_center/account_center.iml" filepath="$PROJECT_DIR$/../account/account_center/account_center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../account/account_center_flow/account_center_flow.iml" filepath="$PROJECT_DIR$/../account/account_center_flow/account_center_flow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../account/account_center_ts/account_center_ts.iml" filepath="$PROJECT_DIR$/../account/account_center_ts/account_center_ts.iml" />
+    </modules>
+  </component>
+</project>

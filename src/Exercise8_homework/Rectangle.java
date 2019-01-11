@@ -21,8 +21,8 @@ public class Rectangle {
 	public static void main(String[] agre){
 		Rectangle rect = new Rectangle(4,40);
 		Rectangle rect1 = new Rectangle(3.5,35.9);
-		System.out.print("The area is : " + rect.getArea() + " and perimeter is :" + rect.getPerimeter() + "\n");
-		System.out.print("The area is : " + rect1.getArea() + " and perimeter is :" + rect1.getPerimeter());
+		System.out.print("The area is : " + rect.getArea() + " and perimeter is : " + rect.getPerimeter() + "\n");
+		System.out.print("The area is : " + rect1.getArea() + " and perimeter is : " + rect1.getPerimeter());
 	}
 }
 
