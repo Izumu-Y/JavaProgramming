@@ -4,24 +4,24 @@ import java.util.Scanner;
 
 public class WeiLaitouzizhu {
 	public static void main (String[] agre){
-		//¹¹Ôìº¯Êı
+		//æ„é€ å‡½æ•°
 		Scanner input = new Scanner(System.in);
 		
-		//»ñÈ¡Öµ
-		System.out.println("ÇëÊäÈëÍ¶×Ê½ğ¶î: ");
+		//è·å–å€¼
+		System.out.println("è¯·è¾“å…¥æŠ•èµ„é‡‘é¢: ");
 		double amount = input.nextDouble();
 		
-		System.out.println("ÇëÊäÈëÀûÂÊ: ");
+		System.out.println("è¯·è¾“å…¥åˆ©ç‡: ");
 		double rate = input.nextDouble();
 		
-		System.out.println("ÇëÊäÈëÄêÊı: ");
+		System.out.println("è¯·è¾“å…¥å¹´æ•°: ");
 		int year = input.nextInt();
 		
-		//¼ÆËã²¢×ª»»
+		//è®¡ç®—å¹¶è½¬æ¢
 		double weilaitouzijine = amount * Math.pow((1 + (rate/100)), (year * 12));	
 		double vul = (double)Math.round(weilaitouzijine * 100) / 100;
 		
-		//Êä³ö½á¹û
-		System.out.println("Î´À´Í¶×Ê½ğ¶îÊÇ: " + vul);
+		//è¾“å‡ºç»“æœ
+		System.out.println("æœªæ¥æŠ•èµ„é‡‘é¢æ˜¯: " + vul);
 	}
 }

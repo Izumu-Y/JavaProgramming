@@ -4,22 +4,22 @@ import java.util.Scanner;
 
 public class JiSuanxiaofei {
 	public static void main (String[] arge){
-		//	¹¹ÔìÊäÈëº¯Êı 
+		//	æ„é€ è¾“å…¥å‡½æ•° 
 		Scanner input = new Scanner(System.in);
 		
-		//	¹¹ÔìÄ¬ÈÏÖµ
+		//	æ„é€ é»˜è®¤å€¼
 		final double Remuneration_rate = 0.15;
 		
-		//	ÌáÊ¾ÓÃ»§ÊäÈë
-		System.out.println("ÇëÊäÈë·ÑÓÃ ($): ");
+		//	æç¤ºç”¨æˆ·è¾“å…¥
+		System.out.println("è¯·è¾“å…¥è´¹ç”¨ ($): ");
 		
-		//	ÊäÈë¸³Öµ
+		//	è¾“å…¥èµ‹å€¼
 		double shuruzhi = input.nextDouble();
 		
-		//	¼ÆËã·ÑÓÃ£ºÊäÈëÖµ * (1+³ê½ğÂÊ£©
+		//	è®¡ç®—è´¹ç”¨ï¼šè¾“å…¥å€¼ * (1+é…¬é‡‘ç‡ï¼‰
 		double jieguo = shuruzhi * (1 + Remuneration_rate);
 		
-		//	Êä³ö½á¹û
-		System.out.println("ÄúĞèÒªÖ§¸¶ : " + jieguo + "$");		
+		//	è¾“å‡ºç»“æœ
+		System.out.println("æ‚¨éœ€è¦æ”¯ä»˜ : " + jieguo + "$");		
 	}
 }
