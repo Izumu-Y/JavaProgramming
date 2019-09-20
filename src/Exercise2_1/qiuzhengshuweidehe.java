@@ -4,21 +4,21 @@ import java.util.Random;;
 
 public class qiuzhengshuweidehe {
 	public static void main (String[] ager){
-		//Éú³ÉÒ»¸öËæ»úÊı
+		//ç”Ÿæˆä¸€ä¸ªéšæœºæ•°
 		Random suijishu = new Random();
 		int suijishu1 = suijishu.nextInt(1001);
 		suijishu1 = Math.abs(suijishu.nextInt() % 1001);
 		
-		//È¡¸÷Î»Êı
+		//å–å„ä½æ•°
 		int geweishu = suijishu1 % 10;
 		int shiweishu = (suijishu1 / 10) % 10;
 		int baiweishu = (suijishu1 / 100 ) % 10;
 		int qianweishu = (baiweishu / 1000) % 10;
 		
-		//¼ÆËã×ÜºÍ
+		//è®¡ç®—æ€»å’Œ
 		int zonghe = geweishu + shiweishu + baiweishu + qianweishu;
 		
-		//Êä³ö½á¹û
-		System.out.println("Éú³ÉµÄËæ»úÊıÊÇ : " + suijishu1 +"\n" + "¸÷Î»ÊıµÄ×ÜºÍÊÇ : " + zonghe);
+		//è¾“å‡ºç»“æœ
+		System.out.println("ç”Ÿæˆçš„éšæœºæ•°æ˜¯ : " + suijishu1 +"\n" + "å„ä½æ•°çš„æ€»å’Œæ˜¯ : " + zonghe);
 	}
 }
